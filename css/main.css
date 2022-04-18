@@ -1,0 +1,140 @@
+/* COLOR VARIABLES */
+
+:root {
+    --red: #e50914;
+    --black: #141414;
+}
+
+/* RESET */
+
+*{
+    box-sizing: border-box;
+    font-family: Times, Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* GENERAL STYLES */
+
+body{
+    background-color: var(--black);
+    color: #fff;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+/* NAVIGATION MENU */
+
+header .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: var(--red);
+    font-size: 2.5rem;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.logar {
+    background-color: rgba(117, 9, 9, 0.8);
+    border: 1px solid rgb(130, 54, 54);
+    border-radius: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    transition: .3s ease all;
+}
+
+.logar:hover {
+    background-color: white;
+    color: black;
+}
+
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 2rem;
+}
+
+header nav a{
+    color: #aaa;
+    margin-right: 80px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* MAIN MOVE */
+ .sub-title {
+     padding: 2rem;
+     font-size: 25px;
+ }
+
+.main-move{
+    align-items: flex-start;
+    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50)), url(../img/suits.jpeg) no-repeat;
+    background-size: 100% 25rem;
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    height: 25rem;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.main-move .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+}
+
+.movie-title{
+    font-size: 2.5rem;
+}
+ 
+.descricao-title{
+    margin: 1.25rem 0 2.5rem 0;
+    
+}
+
+.buttons button{
+    background-color: rgba(0,0,0, .50);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    transition: .3s ease all;
+}
+
+button i{
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+/* CAROUSEL MOVIE */
+
+.carousel-movies{
+    margin-top: 10px;
+}
+
+.box-movie{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
